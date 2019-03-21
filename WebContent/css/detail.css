@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+#s-detail-caption{
+	text-align:center;
+	font-size:larger;
+	font-weight:bold;
+	color:#444;
+	padding-bottom:35px;
+}
+#s-detail-body tr{
+	height:50px;
+	text-align:center;
+}
+#s-detail-body td:nth-of-type(even){
+	font-weight: 400;
+	vertical-align:middle;
+	padding:8px 4px;
+}
+#s-detail-body td:nth-of-type(odd){
+	font-weight: 600;
+	vertical-align:middle;
+}
+#s-detail-btn-group {
+	height: 34px;
+	width: 66px;
+	/* position: relative; */
+	/* top: -10px; */
+	/* display: inline; */
+	float: right;
+	top: -35px;
+	right: 90px;
+}

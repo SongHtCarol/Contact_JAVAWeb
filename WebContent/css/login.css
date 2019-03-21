@@ -1,0 +1,296 @@
+@charset "UTF-8";
+
+/* 页面尺寸 */
+body {
+	margin:0;
+	letter-spacing: 0.2em;
+}
+html {
+	font-family: sans-serif;
+	color:#232323;
+}
+/* 底色设置 */
+.main {
+	/* position */
+	position: relative;
+
+	/* Box-model */
+	margin-right: 0;
+}
+.top-box {
+	/* position */
+
+	/* Box-model */
+	height:50px;
+	width:auto;
+
+	/* Visual */
+	background-color:#232323;
+	box-shadow: 1px 1px 5px #808080,-1px -1px 5px #808080;
+}
+#s-login-logo{
+	color: #777;
+	background-color: transparent;
+	float: left;
+	height: 50px;
+	padding: 15px 15px;
+	font-size: 18px;
+	line-height: 20px;
+	letter-spacing: 0.2em;
+	font-family: sans-serif;
+}
+#s-login-logo{
+	text-decoration: none;
+	outline: 0;
+}
+.top-left-box {
+	/* position */
+	position:absolute;
+	top:130px;
+
+	/* Box-model */
+	width:700px;
+
+}
+#s-main-header {
+	width:1140px;
+	height:60px;
+	color: #333;
+	box-sizing: border-box;
+	margin-top: 100px;
+	padding-bottom: 9px;
+	margin: 0 auto;
+    margin-top: 40px;
+	border-bottom: 1px solid #eee;
+	font-weight: 400;
+}
+
+/* 登录框样式设置 */
+
+	/* 输入框样式设置 */
+.login-box {
+
+	margin:30px auto;
+	/* Box-model */
+	width:420px;
+	height:400px;
+
+	/* Visual */
+	box-shadow: 1px 1px 5px #808080,-1px -1px 5px #808080;
+}
+.login {
+	/* Typography */
+	color:#2c2c2c;
+	font-size:40px;
+}
+	/* 用户名输入设置 */
+.user-name {
+	border: hidden;
+	padding: 10px 40px;
+	padding-top: 20px;
+}
+
+.user-icon {
+	/* position */
+	vertical-align:middle;
+
+	/* Box-model */
+	width:35px;
+}
+.user-edit {
+	
+	/* Box-model */
+	width:280px;
+	height:40px;
+	border: 1px solid #ccc;
+}
+
+	/* 密码输入设置 */
+.user-pwd {
+	
+	/* Box-model */
+	border:hidden;
+	padding: 10px 40px;
+}
+.pwd-icon {
+	/* position */
+	vertical-align:middle;
+
+	/* Box-model */
+	width:35px;
+}
+.pwd-edit {
+
+	/* Box-model */
+	width:280px;
+	height:40px;
+	border: 1px solid #ccc;
+}
+
+input::-webkit-input-placeholder  {/*提示框字体颜色*/
+	/* Typography */
+	color:rgba(0,0,0,.50) ;
+
+	/* Visual */
+	outline: none;
+
+}
+	/* 登录按钮样式设置 */
+.login-button {
+
+	/* Box-Model */
+	width:320px;
+	height:38px;
+	padding:3px;
+
+	/* Typography */
+	letter-spacing:5px;
+	font-size:.95em;
+	color:#ffffff;
+
+	/*Visual */
+	background-color:#232323;
+	border:hidden;
+	outline:none;/*去除点击时的蓝色框*/
+	box-shadow: 1px 1px 5px #808080,-1px -1px 5px #808080;
+	margin: 10px 50px;
+}
+
+.link {
+
+	/* Typography */
+	color:rgba(72,61,139,.6);
+	margin: 0 50px;
+}
+
+
+.checkCode-box{
+	/* position */
+	position:absolute;
+	top:450px;
+	left:800px;
+
+	/* Box-model */
+	width:420px;
+	height:80px;
+
+}
+
+.Check-input{
+
+	/* Box-model */
+	border:hidden;
+	padding: 20px 40px;
+}
+.Check-Code{
+	/* Box-model */
+	width:210px;
+	height:40px;
+	border: 1px solid #ccc;
+
+	/* Typography */
+	font-size: 14px;
+	line-height: 1.42857143;
+	color: #555;
+	/* Visual */
+	background-color: #fff;
+	background-image: none;
+	border-radius: 4px;
+	-webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+	-webkit-transition: border-color ease-in-out .15s, -webkit-box-shadow ease-in-out .15s;
+	-o-transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+	transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+}
+.btn{
+	/* position */
+	vertical-align: middle;
+
+	/* Box-model */
+	border: 1px solid transparent;
+	border-radius: 4px;
+	display: inline-block;
+	padding: 6px 12px;
+	width:63px;
+	height:45px;
+
+	/* Typography */
+	font-size: 14px;
+	font-weight: normal;
+	line-height: 1.42857143;
+	text-align: center;
+	white-space: nowrap;
+
+	-ms-touch-action: manipulation;
+	touch-action: manipulation;
+	cursor: pointer;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	background-image: none;
+}
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+.btn:hover,
+.btn:focus,
+.btn.focus {
+  color: #333;
+  text-decoration: none;
+}
+.btn:active,
+.btn.active {
+  background-image: none;
+  outline: 0;
+  -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+          box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
+}
+.btn-default {
+  color: #333;
+  background-color: #fff;
+  display: inline-block;
+  border-color: #ccc;
+}
+.btn-default:focus,
+.btn-default.focus {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #8c8c8c;
+}
+.btn-default:hover {
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+}
+
+.Check-picture{
+	/* position */
+	vertical-align:middle;
+
+	/* Box-model */
+	border:hidden;
+	width:325px;
+	padding-left: 50px;
+}
+.check-picture{
+	/* position */
+	vertical-align:middle;
+
+	/* Box-model */
+	cursor:pointer;
+	height:40px;
+	width:175px;
+}
+.change-link{
+	font-size: 13px;
+	color: #333;
+}
+
+

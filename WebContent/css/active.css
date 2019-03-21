@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+.btn-group>.btn.btn-primary {
+	background-color:#ddd;
+	border-color: #eee;
+	color:#3b3b3b;
+	font-weight:600;
+}
+.btn-group>.btn.btn-primary:hover {
+	color: #fff;
+	background-color: #3b3b3b;
+	border-color: #3b3b3b;
+}
+#s-active-pagination {
+	display:block;
+	width:220px;
+	height:74px;
+	margin: auto;
+	text-align: center; 
+}
+#s-active-pagination ul { 
+	text-align: center; 
+} 
+#s-active-pagination ul li a { 
+	text-align: center; 
+} 
+
+#s-active-table tr {
+	height:50px;
+}
+#s-active-table td {
+	font-weight: 400;
+	vertical-align:middle;
+}
+#s-active-table td:first-child {
+	font-weight: 600;
+}

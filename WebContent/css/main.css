@@ -1,0 +1,41 @@
+@charset "UTF-8";
+/* 字体设置 */
+body {
+	margin:0;
+}
+html {
+	font-family: sans-serif;
+}
+#header {
+    background-color:#2c2453;
+    color:white;
+    text-align:center;
+    padding:5px;
+
+}
+#nav {
+	position:relative;
+    line-height:30px;
+    background-color:#ffffff;
+    height:880px;
+    width:310px;
+    float:left;
+    padding:5px;
+    box-shadow: 1px 1px 5px #808080,-1px -1px 5px #808080;	      
+}
+#section {
+	position:absolute;
+    width:1345px;
+    height:870px;
+    left:320px;
+    padding:10px;
+    box-shadow: 1px 1px 5px #808080,-1px -1px 5px #808080;	 	 
+}
+#footer {
+	height:30px;
+    background-color:#2c2453;
+    color:white;
+    clear:both;
+    text-align:center;
+   	padding:5px;	 	 
+}

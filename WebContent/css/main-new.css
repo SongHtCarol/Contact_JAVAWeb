@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+#s-body{
+	letter-spacing: 0.2em;
+	font-family: sans-serif;
+	height:650px;
+}
+#s-main-part{
+	height:450px;
+}
+#s-login-main-btn{
+  position:relative;
+  top:140px;
+  display:block;
+  margin: 0 auto;
+  width:280px;
+  height:40px;
+  border-radius: 20px;
+  background-color: #303ca8;
+  color:#fff;
+  letter-spacing: 10px;
+}
+#s-login-main-btn:hover{
+  color:#a296f7;
+}
+#s-register-main-btn{
+  position:relative;
+  top:200px;
+  display:block;
+  margin: 0 auto;
+  width:420px;
+  height:40px;
+  color:#4934ed;
+}
+
+#s-main-text{
+  position:relative;
+  top:280px;
+  display:block;
+  margin: 0 auto;
+  text-align: center;
+}
+#s-main-header{
+	margin-top:100px;
+}
+#s-main-footer{
+	color:#999;
+	position:relative;
+	top:320px;
+	display:block;
+	text-align: center;
+}
+

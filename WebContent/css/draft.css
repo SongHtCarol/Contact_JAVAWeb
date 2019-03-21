@@ -1,0 +1,12 @@
+@charset "UTF-8";
+#s-draft-pagination {
+	width:252px;
+	height:74px;
+	margin: auto;
+}
+#s-draft-pagination ul { 
+	text-align: center; 
+} 
+#s-draft-pagination ul li a { 
+	text-align: center; 
+} 
